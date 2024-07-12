@@ -1,0 +1,96 @@
+
+/* Header */
+.header-container {
+  height: 100vh;
+  background-image: url("./assets/Bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*  Nav Bar   */
+.navbar {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--font-primary-color);
+  font-size: 36px;
+}
+
+#right-menu-icon-id {
+  width: 175px;
+  text-align: right;
+}
+
+.banner-title h1 {
+  text-transform: uppercase;
+  font-size: 110px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  margin: 20px 0;
+}
+
+.banner-profile-container{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--font-primary-color);
+  border-bottom: 1px solid var(--font-primary-color);
+}
+.banner-profile-desc{
+  display: flex;
+  flex-direction: column; /*by default is set with Row*/
+  justify-content: end;
+}
+
+.work-icon-container{
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid var(--font-primary-color);
+  padding: 40px 0px;
+}
+
+.work-arrow-icon{
+  height: 30px;
+  width: 30px;
+}
+
+.banner-image-container{
+  background-color: var(--font-primary-color);
+  width: fit-content;
+}
+
+.banner-des{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 40px 0;
+}
+
+#banner-image{
+  width: 300px;
+}
+
+
+/* Project Section*/
+
+.projects-font-style h1{
+  font-size: 152px;
+  text-transform: uppercase;
+}
+.projects-font-style p{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.projects-font-style{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .navbar{
+    font-size: 15px;
+  }
+} 
