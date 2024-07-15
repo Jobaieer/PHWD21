@@ -57,7 +57,7 @@
 
 .banner-image-container{
   background-color: var(--font-primary-color);
-  width: fit-content;
+  width: 300px;
 }
 
 .banner-des{
@@ -74,23 +74,47 @@
 
 /* Project Section*/
 
-.projects-font-style h1{
+.complete-projects-container h1{
   font-size: 152px;
   text-transform: uppercase;
 }
-.projects-font-style p{
+.complete-projects-container p{
   font-size: 40px;
   text-transform: uppercase;
 }
 
-.projects-font-style{
+.complete-projects-container{
   display: flex;
   justify-content: space-between;
 }
 
 
 @media only screen and (min-width: 200px) and (max-width: 575px) {
+  
+  
+  .header-container {
+    height: 74.2vh;
+  }
+  
   .navbar{
     font-size: 15px;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .banner-title h1{
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+
+  #banner-image {
+    width: 100%;
+  }
+
+  .complete-projects-container{
+    flex-direction: column;
+    
   }
 } 
