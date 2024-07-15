@@ -1,10 +1,10 @@
 
 /* Header */
 .header-container {
-  height: 100vh;
-  background-image: url("./assets/Bg.png");
+  height: 100%;
+  background-image: url("./assets/img/Bg.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 
 /*  Nav Bar   */
@@ -89,6 +89,8 @@
 }
 
 
+
+/* Media Query */
 @media only screen and (min-width: 200px) and (max-width: 575px) {
 
   .container{
@@ -115,6 +117,5 @@
 
   .complete-projects-container{
     flex-direction: column;
-    
   }
 } 
