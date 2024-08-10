@@ -19,11 +19,11 @@
 }
 
 /*We can use HTML tag as property in CSS. eg: body tag*/
-body{
-  background-color: var(--background-color); 
+body {
+  background-color: var(--background-color);
 }
 
-.container{
-  padding: 0px 40px;  /* 1st value is top-bottom & 2nd value is Left-Right*/
+.container {
+  padding: 0px 80px; /* 1st value is top-bottom & 2nd value is Left-Right*/
   /*background-color: var(--background-color);*/ /*work same as line 19-21 do*/
 }
