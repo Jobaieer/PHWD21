@@ -1,6 +1,6 @@
 /* My Project Section */
 
-.my-projects-container {
+.container-mt {
   margin-top: 100px;
 }
 
@@ -15,11 +15,14 @@
   width: 100%;
 }
 
-.pt {
+/* Common Section Title*/
+.st {
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 40px;
+  text-transform: uppercase;
 }
+/* Common Section Title End*/
 
 .button {
   width: 300px;
@@ -40,8 +43,70 @@
   font-size: 30px;
 }
 
+/*My Blogs Section*/
+
+.my-blogs-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.my-blogs img {
+  width: 100%;
+}
+
+.my-blogs h3 {
+  background-color: var(--font-primary-color);
+  width: 100px;
+  padding: 17px 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: var(--background-color);
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 100%;
+}
+.c1 {
+  background-color: var(--primary-color);
+}
+
+.c2 {
+  background-color: #5e4af1;
+}
+
+.dt-wrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.dt {
+  display: flex;
+  gap: 10px;
+}
+
+.b-t {
+  font-weight: 300;
+  font-size: 40px;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 576px) {
+  /*Responsive My Projects Section */
   .my-projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /*Responsive My Blogs Section */
+  .my-blogs-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 }
